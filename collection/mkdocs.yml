@@ -1,0 +1,27 @@
+site_name: Personal notes
+nav:
+  - Home: index.md
+  - About: about.md
+  - Python: python
+theme:
+  # name: mkdocs
+  # nav_style: dark
+  name: terminal
+  palette: gruvbox_dark
+  shortcuts:
+    help: 191 # ?
+    next: 78 # n
+    previous: 80 # p
+    search: 83 # s
+  navigation_depth: 3
+  highlightjs: true
+  hljs_languages:
+    - yaml
+    - python
+    - markdown
+    - javascript
+    - typescript
+    - rust
+plugins:
+  - search:
+      min_search_length: 2
